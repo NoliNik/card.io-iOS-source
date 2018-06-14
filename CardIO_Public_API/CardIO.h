@@ -11,4 +11,6 @@
 #import "CardIOPaymentViewController.h"
 #import "CardIOPaymentViewControllerDelegate.h"
 #import "CardIOUtilities.h"
+#import "CardIOCreditCardNumberFormatter.h"
+#import "CardIOCreditCardNumber.h"
 

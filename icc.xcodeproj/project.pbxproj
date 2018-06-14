@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258EF16D20D29E54001D476E /* CardIOCreditCardNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 258EF16C20D29E53001D476E /* CardIOCreditCardNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258EF16F20D29E6A001D476E /* CardIOCreditCardNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 258EF16C20D29E53001D476E /* CardIOCreditCardNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258EF17120D29E7B001D476E /* CardIOCreditCardNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 258EF17020D29E7B001D476E /* CardIOCreditCardNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258EF17220D29E7B001D476E /* CardIOCreditCardNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 258EF17020D29E7B001D476E /* CardIOCreditCardNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25DB02A720D2B502007317FE /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D1824386144CF73400829B91 /* CardIOCreditCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E0133E1198AD433009E579A /* CardIO-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3E0133E0198AD433009E579A /* CardIO-Prefix.pch */; };
 		3E0133E4198AD6C5009E579A /* AdHocEntitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E0133E3198AD6C5009E579A /* AdHocEntitlements.plist */; };
 		3E0133E7198AD75C009E579A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0133E6198AD75C009E579A /* main.m */; };
@@ -57,7 +62,6 @@
 		3E9F4C10181F03F300F33B48 /* CardIOView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D865717BC4EBB0057505D /* CardIOView.mm */; };
 		3E9F4C1D181F03F300F33B48 /* geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0381A82D139982AF0088C26E /* geometry.h */; };
 		3E9F4C1E181F03F300F33B48 /* CardIOMultipleFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D1800C6F13CE6D0C0004444E /* CardIOMultipleFieldTableViewCell.h */; };
-		3E9F4C1F181F03F300F33B48 /* CardIOCreditCardNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D13A60C213D4BF4400123D1A /* CardIOCreditCardNumberFormatter.h */; };
 		3E9F4C20181F03F300F33B48 /* CardIOCreditCardExpiryFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D13A60C613D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.h */; };
 		3E9F4C21181F03F300F33B48 /* CardIOExpiryTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D13A60CB13D502BF00123D1A /* CardIOExpiryTextFieldDelegate.h */; };
 		3E9F4C23181F03F300F33B48 /* canny.h in Headers */ = {isa = PBXBuildFile; fileRef = 03788FF213F9B2A1008B8767 /* canny.h */; };
@@ -198,7 +202,6 @@
 		92263E1B1B83AF13003FE678 /* CardIOPostalCodeTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED37A1117A89BA500A09325 /* CardIOPostalCodeTextFieldDelegate.m */; };
 		92263E1C1B83AF1A003FE678 /* CardIOCreditCardExpiryFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D13A60C613D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.h */; };
 		92263E1D1B83AF1A003FE678 /* CardIOCreditCardExpiryFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A60C713D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.m */; };
-		92263E1E1B83AF1A003FE678 /* CardIOCreditCardNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D13A60C213D4BF4400123D1A /* CardIOCreditCardNumberFormatter.h */; };
 		92263E1F1B83AF1A003FE678 /* CardIOCreditCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A60C313D4BF4400123D1A /* CardIOCreditCardNumberFormatter.m */; };
 		92263E201B83B6C1003FE678 /* canny.h in Headers */ = {isa = PBXBuildFile; fileRef = 03788FF213F9B2A1008B8767 /* canny.h */; };
 		92263E231B83B6C1003FE678 /* hough.h in Headers */ = {isa = PBXBuildFile; fileRef = 03788FF413F9B2A1008B8767 /* hough.h */; };
@@ -338,7 +341,6 @@
 		0307360613416B0600663C26 /* CardIOConfigurableTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardIOConfigurableTextFieldDelegate.m; path = Classes/CardIOConfigurableTextFieldDelegate.m; sourceTree = "<group>"; };
 		0307360B1343C0F300663C26 /* CardIONumbersTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIONumbersTextFieldDelegate.h; path = Classes/CardIONumbersTextFieldDelegate.h; sourceTree = "<group>"; };
 		0307360C1343C0F300663C26 /* CardIONumbersTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardIONumbersTextFieldDelegate.m; path = Classes/CardIONumbersTextFieldDelegate.m; sourceTree = "<group>"; };
-		0307360E1343EC4300663C26 /* CardIOCreditCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardNumber.h; path = Classes/CardIOCreditCardNumber.h; sourceTree = "<group>"; };
 		0307360F1343EC4300663C26 /* CardIOCreditCardNumber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CardIOCreditCardNumber.mm; path = Classes/CardIOCreditCardNumber.mm; sourceTree = "<group>"; };
 		030736111343F53A00663C26 /* CardIOCVVTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCVVTextFieldDelegate.h; path = Classes/CardIOCVVTextFieldDelegate.h; sourceTree = "<group>"; };
 		030736121343F53A00663C26 /* CardIOCVVTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardIOCVVTextFieldDelegate.m; path = Classes/CardIOCVVTextFieldDelegate.m; sourceTree = "<group>"; };
@@ -674,6 +676,8 @@
 		03F8A48E1256AA4700AB3AF3 /* CardIOCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCGGeometry.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* iccAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iccAppDelegate.h; path = Classes/iccAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* iccAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iccAppDelegate.m; path = Classes/iccAppDelegate.m; sourceTree = "<group>"; };
+		258EF16C20D29E53001D476E /* CardIOCreditCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardNumberFormatter.h; path = CardIO_Public_API/CardIOCreditCardNumberFormatter.h; sourceTree = "<group>"; };
+		258EF17020D29E7B001D476E /* CardIOCreditCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardNumber.h; path = CardIO_Public_API/CardIOCreditCardNumber.h; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		2DE7CA2517BD94F300D54383 /* card_io_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_io_logo_black.png; path = Resources/card_io_logo_black.png; sourceTree = "<group>"; };
 		2DE7CA2617BD94F300D54383 /* card_io_logo_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card_io_logo_black@2x.png"; path = "Resources/card_io_logo_black@2x.png"; sourceTree = "<group>"; };
@@ -830,7 +834,6 @@
 		B5EC9805168CD52F00C9A30C /* CardIOOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIOOrientation.h; sourceTree = "<group>"; };
 		B5EDB90E168E05370055E716 /* CardIOAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOAnimation.h; path = Classes/CardIOAnimation.h; sourceTree = "<group>"; };
 		B5EDB90F168E05370055E716 /* CardIOAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CardIOAnimation.mm; path = Classes/CardIOAnimation.mm; sourceTree = "<group>"; };
-		D13A60C213D4BF4400123D1A /* CardIOCreditCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardNumberFormatter.h; path = Classes/CardIOCreditCardNumberFormatter.h; sourceTree = "<group>"; };
 		D13A60C313D4BF4400123D1A /* CardIOCreditCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardIOCreditCardNumberFormatter.m; path = Classes/CardIOCreditCardNumberFormatter.m; sourceTree = "<group>"; };
 		D13A60C613D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardExpiryFormatter.h; path = Classes/CardIOCreditCardExpiryFormatter.h; sourceTree = "<group>"; };
 		D13A60C713D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardIOCreditCardExpiryFormatter.m; path = Classes/CardIOCreditCardExpiryFormatter.m; sourceTree = "<group>"; };
@@ -965,7 +968,6 @@
 				B5EC97EC168BA44F00C9A30C /* CardIOContext.h */,
 				B5EC97ED168BA44F00C9A30C /* CardIOContext.m */,
 				D1AF634813CCB3C300330C76 /* CardIOCreditCardInfo.m */,
-				0307360E1343EC4300663C26 /* CardIOCreditCardNumber.h */,
 				0307360F1343EC4300663C26 /* CardIOCreditCardNumber.mm */,
 			);
 			name = Models;
@@ -1024,6 +1026,8 @@
 		030735D6134148FE00663C26 /* Public API */ = {
 			isa = PBXGroup;
 			children = (
+				258EF16C20D29E53001D476E /* CardIOCreditCardNumberFormatter.h */,
+				258EF17020D29E7B001D476E /* CardIOCreditCardNumber.h */,
 				D1824381144CF73400829B91 /* CardIO.h */,
 				D1824386144CF73400829B91 /* CardIOCreditCardInfo.h */,
 				3E587F8A18C7E165000C1D3A /* CardIODetectionMode.h */,
@@ -1962,7 +1966,6 @@
 			children = (
 				D13A60C613D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.h */,
 				D13A60C713D4F3A900123D1A /* CardIOCreditCardExpiryFormatter.m */,
-				D13A60C213D4BF4400123D1A /* CardIOCreditCardNumberFormatter.h */,
 				D13A60C313D4BF4400123D1A /* CardIOCreditCardNumberFormatter.m */,
 			);
 			name = Formatters;
@@ -1975,13 +1978,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DB02A720D2B502007317FE /* CardIOCreditCardInfo.h in Headers */,
+				258EF17220D29E7B001D476E /* CardIOCreditCardNumber.h in Headers */,
+				258EF16F20D29E6A001D476E /* CardIOCreditCardNumberFormatter.h in Headers */,
 				A50A54D31BE30A4200B669FB /* CardIOUtilities.h in Headers */,
 				A50A54D21BE30A2800B669FB /* CardIODetectionMode.h in Headers */,
 				92263DEF1B83AE04003FE678 /* CardIOResource.h in Headers */,
 				3E9F4C1D181F03F300F33B48 /* geometry.h in Headers */,
 				3ED00DA31BD8D60900FD2DB4 /* UIImage+ImageEffects.h in Headers */,
 				3E9F4C1E181F03F300F33B48 /* CardIOMultipleFieldTableViewCell.h in Headers */,
-				3E9F4C1F181F03F300F33B48 /* CardIOCreditCardNumberFormatter.h in Headers */,
 				3E9F4C20181F03F300F33B48 /* CardIOCreditCardExpiryFormatter.h in Headers */,
 				3E9F4C21181F03F300F33B48 /* CardIOExpiryTextFieldDelegate.h in Headers */,
 				3E9F4C23181F03F300F33B48 /* canny.h in Headers */,
@@ -2040,9 +2045,9 @@
 				92263DF41B83AE10003FE678 /* CardIOGPURenderer.h in Headers */,
 				92263DEA1B83AE03003FE678 /* CardIODevice.h in Headers */,
 				92263DDE1B83ADC0003FE678 /* CardIOPaymentViewControllerContinuation.h in Headers */,
+				258EF16D20D29E54001D476E /* CardIOCreditCardNumberFormatter.h in Headers */,
 				92263E2E1B83B99B003FE678 /* modelm_befe75da.hpp in Headers */,
 				92263DF01B83AE10003FE678 /* CardIOGPUFilter.h in Headers */,
-				92263E1E1B83AF1A003FE678 /* CardIOCreditCardNumberFormatter.h in Headers */,
 				92263DFB1B83AE19003FE678 /* CardIOCardScanner.h in Headers */,
 				92263DFD1B83AE19003FE678 /* CardIOConfig.h in Headers */,
 				92263E2C1B83B937003FE678 /* CardIOCardOverlay.h in Headers */,
@@ -2053,6 +2058,7 @@
 				92263DE81B83AE03003FE678 /* CardIOBundle.h in Headers */,
 				92263E161B83AF13003FE678 /* CardIOExpiryTextFieldDelegate.h in Headers */,
 				92263DD71B83ADA3003FE678 /* CardIOContext.h in Headers */,
+				258EF17120D29E7B001D476E /* CardIOCreditCardNumber.h in Headers */,
 				92263DDC1B83ADAB003FE678 /* CardIOViewContinuation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
